@@ -1,0 +1,2 @@
+d3.csv("https://raw.githubusercontent.com/japmelian/datasets/main/callejero-tenerife.csv",((t,e)=>{function a(t,e){return t.map((function(t){return t[e]}))}var n=[{type:"scattermapbox",lon:a(e,"lon"),lat:a(e,"lat"),marker:{size:4,color:"#0082cd"}}];Plotly.newPlot("map",n,{mapbox:{style:"open-street-map",zoom:9,center:{lon:-16.642508,lat:28.272338}},margin:{r:0,t:0,b:0,l:0}})}));
+//# sourceMappingURL=index.ee107e93.js.map
